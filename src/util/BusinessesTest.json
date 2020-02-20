@@ -1,0 +1,977 @@
+const jsonResponse = {
+  "businesses": [
+      {
+          "id": "C8j0q4Ma_S5hBGuAI-aaww",
+          "alias": "di-fara-pizza-brooklyn",
+          "name": "Di Fara Pizza",
+          "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4dfe9qpe20P-vi3qFjWd4Q/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/di-fara-pizza-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+          "review_count": 3417,
+          "categories": [
+              {
+                  "alias": "pizza",
+                  "title": "Pizza"
+              }
+          ],
+          "rating": 4.0,
+          "coordinates": {
+              "latitude": 40.625093,
+              "longitude": -73.961531
+          },
+          "transactions": [
+              "delivery",
+              "pickup"
+          ],
+          "price": "$$",
+          "location": {
+              "address1": "1424 Ave J",
+              "address2": "",
+              "address3": "",
+              "city": "Brooklyn",
+              "zip_code": "11230",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "1424 Ave J",
+                  "Brooklyn, NY 11230"
+              ]
+          },
+          "phone": "+17182581367",
+          "display_phone": "(718) 258-1367",
+          "distance": 3559.746344303
+      },
+      {
+          "id": "ysqgdbSrezXgVwER2kQWKA",
+          "alias": "julianas-pizza-brooklyn-5",
+          "name": "Juliana's Pizza",
+          "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/clscwgOF9_Ecq-Rwsq7jyQ/o.jpg",
+          "is_closed": false,
+          "url": "https://www.yelp.com/biz/julianas-pizza-brooklyn-5?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+          "review_count": 2163,
+          "categories": [
+              {
+                  "alias": "pizza",
+                  "title": "Pizza"
+              }
+          ],
+          "rating": 4.5,
+          "coordinates": {
+              "latitude": 40.7026153030093,
+              "longitude": -73.9934159993549
+          },
+          "transactions": [],
+          "price": "$$",
+          "location": {
+              "address1": "19 Old Fulton St",
+              "address2": "",
+              "address3": "",
+              "city": "Brooklyn",
+              "zip_code": "11201",
+              "country": "US",
+              "state": "NY",
+              "display_address": [
+                  "19 Old Fulton St",
+                  "Brooklyn, NY 11201"
+              ]
+          },
+          "phone": "+17185966700",
+          "display_phone": "(718) 596-6700",
+          "distance": 7214.079408853298
+      },
+    ]
+};
+
+const response = jsonResponse.businesses.map(business=>{
+  name: this.business.name,
+});
+
+
+{
+    "businesses": [
+        {
+            "id": "C8j0q4Ma_S5hBGuAI-aaww",
+            "alias": "di-fara-pizza-brooklyn",
+            "name": "Di Fara Pizza",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4dfe9qpe20P-vi3qFjWd4Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/di-fara-pizza-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 3417,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.625093,
+                "longitude": -73.961531
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "1424 Ave J",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11230",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "1424 Ave J",
+                    "Brooklyn, NY 11230"
+                ]
+            },
+            "phone": "+17182581367",
+            "display_phone": "(718) 258-1367",
+            "distance": 3559.746344303
+        },
+        {
+            "id": "ysqgdbSrezXgVwER2kQWKA",
+            "alias": "julianas-pizza-brooklyn-5",
+            "name": "Juliana's Pizza",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/clscwgOF9_Ecq-Rwsq7jyQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/julianas-pizza-brooklyn-5?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 2163,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.7026153030093,
+                "longitude": -73.9934159993549
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "19 Old Fulton St",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11201",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "19 Old Fulton St",
+                    "Brooklyn, NY 11201"
+                ]
+            },
+            "phone": "+17185966700",
+            "display_phone": "(718) 596-6700",
+            "distance": 7214.079408853298
+        },
+        {
+            "id": "v1DHGRNCH9247WLYoaoA9A",
+            "alias": "l-industrie-pizzeria-brooklyn",
+            "name": "L'industrie Pizzeria",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/SRL_RztRRUijgQwt67daGw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/l-industrie-pizzeria-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 509,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.71162,
+                "longitude": -73.95783
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "254 S 2nd St",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11211",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "254 S 2nd St",
+                    "Brooklyn, NY 11211"
+                ]
+            },
+            "phone": "+17185990002",
+            "display_phone": "(718) 599-0002",
+            "distance": 6771.011722454566
+        },
+        {
+            "id": "pQo-KWQxuH26y0IzZbQj0A",
+            "alias": "joe-and-sals-pizza-brooklyn",
+            "name": "Joe & Sal's Pizza",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/V4YjC0FeTG15Pkb12ypLgQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/joe-and-sals-pizza-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 118,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                },
+                {
+                    "alias": "pastashops",
+                    "title": "Pasta Shops"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.6694466400113,
+                "longitude": -73.9595866666786
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "842 Franklin Ave",
+                "address2": "",
+                "address3": null,
+                "city": "Brooklyn",
+                "zip_code": "11225",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "842 Franklin Ave",
+                    "Brooklyn, NY 11225"
+                ]
+            },
+            "phone": "+17184848732",
+            "display_phone": "(718) 484-8732",
+            "distance": 2555.9368555160686
+        },
+        {
+            "id": "xRiLLXjeM2wOvVTYJH2__A",
+            "alias": "barboncino-pizza-and-bar-brooklyn-2",
+            "name": "Barboncino Pizza & Bar",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/48doX4sxCRLxOl8a6AD35Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/barboncino-pizza-and-bar-brooklyn-2?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 935,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.67206,
+                "longitude": -73.95717
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "781 Franklin Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11238",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "781 Franklin Ave",
+                    "Brooklyn, NY 11238"
+                ]
+            },
+            "phone": "+17182183300",
+            "display_phone": "(718) 218-3300",
+            "distance": 2663.491653413659
+        },
+        {
+            "id": "Q9F2ocrmYuGt1yn3M7MOBw",
+            "alias": "lucali-brooklyn-3",
+            "name": "Lucali",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Yl_eZ_DW_iaumnU-pfSoaw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lucali-brooklyn-3?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 1507,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.6818,
+                "longitude": -74.00024
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "575 Henry St",
+                "address2": null,
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11231",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "575 Henry St",
+                    "Brooklyn, NY 11231"
+                ]
+            },
+            "phone": "+17188584086",
+            "display_phone": "(718) 858-4086",
+            "distance": 6096.250479222449
+        },
+        {
+            "id": "FhXjAc6nKLf414KxYujUHw",
+            "alias": "robertas-brooklyn-2",
+            "name": "Roberta's",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/8fY9fA5TtCF0ebdTNph9mQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/robertas-brooklyn-2?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 2805,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.705043534338,
+                "longitude": -73.93357123374
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "261 Moore St",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11206",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "261 Moore St",
+                    "Brooklyn, NY 11206"
+                ]
+            },
+            "phone": "+17184171118",
+            "display_phone": "(718) 417-1118",
+            "distance": 5881.7575816280705
+        },
+        {
+            "id": "EsHcyOLHaK76bQuU7bwiTw",
+            "alias": "tonys-pizzeria-and-restaurant-brooklyn-3",
+            "name": "Tony's Pizzeria & Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/wEPzpmEQ2Hd-WkeKUGe1Kg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/tonys-pizzeria-and-restaurant-brooklyn-3?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 285,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.699286,
+                "longitude": -73.918724
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "443 Knickerbocker Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11237",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "443 Knickerbocker Ave",
+                    "Brooklyn, NY 11237"
+                ]
+            },
+            "phone": "+17184559664",
+            "display_phone": "(718) 455-9664",
+            "distance": 5503.669556667695
+        },
+        {
+            "id": "ON7ihGoWgZaBFDaLCYpk2Q",
+            "alias": "rome-to-brooklyn-pizza-and-panzerotti-new-york",
+            "name": "Rome to Brooklyn, pizza & panzerotti",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kK0siIAWk4yPMmCCjvp5wQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rome-to-brooklyn-pizza-and-panzerotti-new-york?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 40.711921,
+                "longitude": -73.942922
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "location": {
+                "address1": "755 grand st",
+                "address2": null,
+                "address3": "",
+                "city": "New York",
+                "zip_code": "11211",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "755 grand st",
+                    "New York, NY 11211"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 6632.9258438198285
+        },
+        {
+            "id": "xrgzB0pvsxeGEIboE6I2gg",
+            "alias": "patsys-pizzeria-brooklyn-2",
+            "name": "Patsy's Pizzeria",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/1n5xL5ojLR-_zseirQKaMw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/patsys-pizzeria-brooklyn-2?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 515,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.6818695,
+                "longitude": -73.976181
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "450 Dean St",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11217",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "450 Dean St",
+                    "Brooklyn, NY 11217"
+                ]
+            },
+            "phone": "+17186222268",
+            "display_phone": "(718) 622-2268",
+            "distance": 4520.468918310525
+        },
+        {
+            "id": "vyoA8dxwScuMV_AsTcjQcg",
+            "alias": "l-and-b-spumoni-gardens-brooklyn",
+            "name": "L & B Spumoni Gardens",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/BrTci9PjIwi7V1vkbgkdqg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/l-and-b-spumoni-gardens-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 3705,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.594715,
+                "longitude": -73.981316
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "2725 86th St",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11223",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "2725 86th St",
+                    "Brooklyn, NY 11223"
+                ]
+            },
+            "phone": "+17184491230",
+            "display_phone": "(718) 449-1230",
+            "distance": 7319.894614377719
+        },
+        {
+            "id": "2xQmBB6w-W6lxiex80fA9A",
+            "alias": "luigis-pizzeria-brooklyn-4",
+            "name": "Luigi's Pizzeria",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/B3eNfBS1DTkTZ6fasVL01A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/luigis-pizzeria-brooklyn-4?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 239,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.6897,
+                "longitude": -73.965369
+            },
+            "transactions": [
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "326 Dekalb Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11205",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "326 Dekalb Ave",
+                    "Brooklyn, NY 11205"
+                ]
+            },
+            "phone": "+17187832430",
+            "display_phone": "(718) 783-2430",
+            "distance": 4698.6995897379675
+        },
+        {
+            "id": "3VJwpmmeoPlCN3J5p5miEQ",
+            "alias": "brooklyns-homeslice-pizzeria-brooklyn",
+            "name": "Brooklyn's Homeslice Pizzeria",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/0CxtRC4BfPobAfvBBLJH3g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/brooklyns-homeslice-pizzeria-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 112,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.680702,
+                "longitude": -73.967455
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "567 Vanderbilt Ave",
+                "address2": "",
+                "address3": null,
+                "city": "Brooklyn",
+                "zip_code": "11238",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "567 Vanderbilt Ave",
+                    "Brooklyn, NY 11238"
+                ]
+            },
+            "phone": "+17183999000",
+            "display_phone": "(718) 399-9000",
+            "distance": 3945.532545091288
+        },
+        {
+            "id": "iSr36HYfNRXvMhjhvP77vA",
+            "alias": "archies-bar-and-pizza-brooklyn",
+            "name": "Archie's Bar & Pizza",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ol7C48_00aZzHXGAbv4Qgw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/archies-bar-and-pizza-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 337,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.699705,
+                "longitude": -73.928512
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "128 Central Ave",
+                "address2": null,
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11221",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "128 Central Ave",
+                    "Brooklyn, NY 11221"
+                ]
+            },
+            "phone": "+13479152244",
+            "display_phone": "(347) 915-2244",
+            "distance": 5348.323249095666
+        },
+        {
+            "id": "qoBcWhGwlcUsKIQ2nB22vA",
+            "alias": "lombardos-of-bay-ridge-brooklyn-2",
+            "name": "Lombardo's of Bay Ridge",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/dApR-oBFGa2kQIpmEeasfA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lombardos-of-bay-ridge-brooklyn-2?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 122,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.634741,
+                "longitude": -74.0284259
+            },
+            "transactions": [
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "279 71st St",
+                "address2": null,
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11209",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "279 71st St",
+                    "Brooklyn, NY 11209"
+                ]
+            },
+            "phone": "+17182387100",
+            "display_phone": "(718) 238-7100",
+            "distance": 7659.838650363754
+        },
+        {
+            "id": "xnw88LhmiI7_ktRTVYbESw",
+            "alias": "zurilee-restaurant-brooklyn",
+            "name": "ZuriLee Restaurant",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/NptdsoIL-c9-NRoIEncR2g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/zurilee-restaurant-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 264,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.654557,
+                "longitude": -73.959409
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "755 Flatbush Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11226",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "755 Flatbush Ave",
+                    "Brooklyn, NY 11226"
+                ]
+            },
+            "phone": "+17185136084",
+            "display_phone": "(718) 513-6084",
+            "distance": 1709.2217707145046
+        },
+        {
+            "id": "E2RpnwMxgDHAWcsNMevhmg",
+            "alias": "cuts-and-slices-brooklyn-3",
+            "name": "Cuts & Slices",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/iGo7yv-6OdBDsxL2FhPKww/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cuts-and-slices-brooklyn-3?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 106,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.6854737,
+                "longitude": -73.9203186
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "93 Howard Ave",
+                "address2": null,
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11233",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "93 Howard Ave",
+                    "Brooklyn, NY 11233"
+                ]
+            },
+            "phone": "+17185522652",
+            "display_phone": "(718) 552-2652",
+            "distance": 4011.643918257051
+        },
+        {
+            "id": "fU22eRTnKLT2C-OFJ6eUGQ",
+            "alias": "saraghina-brooklyn",
+            "name": "Saraghina",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/91gieiePPSh6OuQJvrVirg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/saraghina-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 857,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "bakeries",
+                    "title": "Bakeries"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.6835063,
+                "longitude": -73.9352006
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "435 Halsey St",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11233",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "435 Halsey St",
+                    "Brooklyn, NY 11233"
+                ]
+            },
+            "phone": "+17185740010",
+            "display_phone": "(718) 574-0010",
+            "distance": 3484.344416228906
+        },
+        {
+            "id": "hSgD7ERSw0DE2RMzLGFiHg",
+            "alias": "daddy-greens-brooklyn",
+            "name": "Daddy Greens",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/e9XRyluJfMa9eFlgoX0JDQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/daddy-greens-brooklyn?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 367,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 40.67969,
+                "longitude": -73.93883
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "1552 Fulton St",
+                "address2": null,
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11233",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "1552 Fulton St",
+                    "Brooklyn, NY 11233"
+                ]
+            },
+            "phone": "+17184842142",
+            "display_phone": "(718) 484-2142",
+            "distance": 3044.554067404408
+        },
+        {
+            "id": "wTNUUoYUl3gox-gUAZ9bAA",
+            "alias": "peppinos-brick-oven-pizza-and-restaurant-brooklyn-2",
+            "name": "Peppino's Brick Oven Pizza & Restaurant",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Mz8N4ggsttTNdvXBxJgr5A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/peppinos-brick-oven-pizza-and-restaurant-brooklyn-2?adjust_creative=bHi08J5IqiBhguTRD5Suvw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=bHi08J5IqiBhguTRD5Suvw",
+            "review_count": 407,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.668221,
+                "longitude": -73.986936
+            },
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "price": "$$",
+            "location": {
+                "address1": "469 5th Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Brooklyn",
+                "zip_code": "11215",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "469 5th Ave",
+                    "Brooklyn, NY 11215"
+                ]
+            },
+            "phone": "+17187687244",
+            "display_phone": "(718) 768-7244",
+            "distance": 4384.738675921156
+        }
+    ],
+    "total": 10700,
+    "region": {
+        "center": {
+            "longitude": -73.93936157226562,
+            "latitude": 40.652330148320374
+        }
+    }
+}
